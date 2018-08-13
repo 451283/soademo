@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>soaparent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>soaservice</module>
+        <module>soabean</module>
+        <module>soadao</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <name>soaparent</name>
+    <description>Demo project for Spring Boot</description>
+
+    <properties>
+        <soa.test.soabean.version>1.0-SNAPSHOT</soa.test.soabean.version>
+        <soa.test.soaservice.version>1.0-SNAPSHOT</soa.test.soaservice.version>
+        <soa.test.soadao.version>1.0-SNAPSHOT</soa.test.soadao.version>
+    </properties>
+
+
+    <parent>
+        <groupId>com.example</groupId>
+        <artifactId>soatoppom</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>soaservice</artifactId>
+                <version>${soa.test.soabean.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>soabean</artifactId>
+                <version>${soa.test.soaservice.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>soadao</artifactId>
+                <version>${soa.test.soadao.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>

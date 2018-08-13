@@ -1,0 +1,6 @@
+com\example\soaconsumer\controller\ConsumerController.class
+com\example\soaconsumer\SoaConsumerApp.class
+com\example\soaconsumer\service\StockUpdateService.class
+com\example\soaconsumer\service\inter\IStockUpdate.class
+com\example\soaconsumer\service\StockQueryService.class
+com\example\soaconsumer\service\inter\IStockQuery.class

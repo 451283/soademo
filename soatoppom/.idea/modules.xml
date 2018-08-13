@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../soaparent/soabean/soabean.iml" filepath="$PROJECT_DIR$/../soaparent/soabean/soabean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../soaconsumer/soaconsumer.iml" filepath="$PROJECT_DIR$/../soaconsumer/soaconsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../soaparent/soadao/soadao.iml" filepath="$PROJECT_DIR$/../soaparent/soadao/soadao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../soaparent/soaparent.iml" filepath="$PROJECT_DIR$/../soaparent/soaparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../soaprovider/soaprovider.iml" filepath="$PROJECT_DIR$/../soaprovider/soaprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../soaparent/soaservice/soaservice.iml" filepath="$PROJECT_DIR$/../soaparent/soaservice/soaservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soatoppom.iml" filepath="$PROJECT_DIR$/soatoppom.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="soabean" />
+        <module name="soaconsumer" />
+        <module name="soadao" />
+        <module name="soaprovider" />
+        <module name="soaservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="soabean" target="1.6" />
+      <module name="soaconsumer" target="1.6" />
+      <module name="soadao" target="1.6" />
+      <module name="soaparent" target="1.6" />
+      <module name="soaprovider" target="1.6" />
+      <module name="soaservice" target="1.6" />
+      <module name="soatoppom" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
